@@ -9,13 +9,14 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief Some statistics values are going to be gotten given an unsigned char array of data
  *
- * <Add Extended Description Here>
+ * Given as an input an array of unsigned char values, some statistic values are going to be found
+ * such as: mean, median, minimum, and maximum values.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Eduardo Garcia
+ * @date 01/02/2021
  *
  */
 
@@ -41,3 +42,25 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+void print_statistics(unsigned char* array, unsigned int size){
+};
+
+
+void print_array(unsigned char* array, unsigned int size){
+};
+
+unsigned char find_median(unsigned char* array, unsigned int size){
+};
+
+unsigned char find_mean(unsigned char* array, unsigned int size){
+};
+
+unsigned char find_maximum(unsigned char* array, unsigned int size){
+};
+
+unsigned char find_minimum(unsigned char* array, unsigned int size){
+};
+
+unsigned char* sort_array(unsigned char* array, unsigned int size, unsigned char* new_array){
+};
+
